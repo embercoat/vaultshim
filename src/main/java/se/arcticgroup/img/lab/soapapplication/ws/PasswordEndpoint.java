@@ -10,8 +10,6 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 import se.arcticgroup.img.lab.soapapplication.database.*;
 
-import java.io.IOException;
-
 
 @Endpoint
 public class PasswordEndpoint {

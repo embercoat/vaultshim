@@ -40,10 +40,9 @@
                 </executions>
                 <configuration>
                     <schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
-                    <includes>
+                    <!--includes>
                         <include>*.xsd</include>
-                    </includes>
-                    <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+                    </includes-->
                     <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>

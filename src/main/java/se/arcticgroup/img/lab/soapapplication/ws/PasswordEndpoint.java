@@ -58,7 +58,7 @@ public class PasswordEndpoint {
         PasswordResponse passwordResponse = new PasswordResponse();
 
         passwordResponse.setAddress("address");
-        passwordResponse.setContent("content");
+        passwordResponse.setContent(passwordRequest.getObject());
         passwordResponse.setDatabase("database");
         passwordResponse.setPolicyID("PolicyID");
         passwordResponse.setUserName("username");
